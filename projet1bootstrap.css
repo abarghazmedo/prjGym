@@ -1,0 +1,170 @@
+/*navigation*/
+#header .fixed-top{
+    box-shadow:0 0.125rem 0.675rem rgb(141, 141, 141);
+}
+#header .navbar-nav .nav-item .nav-link{
+    color: black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active{
+color: #8B0000;
+}
+
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+/* home css*/
+#Home .content{
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-78%,50%);
+}
+section{
+    position: 6rem 6%;
+}
+
+.about{
+    background: white;
+}
+.heading h4{
+    color:#8B0000 ;
+}
+
+#about .content i{
+    height: 90px;
+    width: 90px;
+    font-size: 27px;
+    background: #8B0000;
+    border-radius: 50%;
+    display: inline-block;
+    color:black;
+    line-height: 90px;
+    text-align: center;
+    transition: all 0.3s;
+}
+#about .content  i:hover{
+    background: #FFD700;
+    
+}
+
+#about .border{
+    padding: 20px;
+    background: rgb(238, 232, 232);
+    color: #8B0000;
+}
+#about .border:hover{
+    background-color:#FFD700 ;
+}
+
+.service h6{
+    color:#8B0000 ;
+}
+.service .card:hover .card-body{
+    background: #FFD700;
+}
+
+#price .card{
+ background: rgb(238, 232, 232);
+}
+#price h1{
+    color: #917a7a;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+#price p{
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px;
+    
+     }
+#price .card:hover{
+    background: #eece19;
+    color:#8B0000 ;
+}
+
+#team .card{
+    background: rgb(238, 232, 232);
+}
+.team img{
+    bottom: -60%;
+    width: 100%;
+    object-fit: cover;
+    overflow:hidden ;
+}
+.team .card-body{
+    position: absolute;
+    bottom: -60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);/*posititon left right*/
+    width: 100%;
+    opacity: 0;
+
+}
+.team .card:hover .card-body{
+    opacity: 1;
+    bottom: -40%;
+    background: #eece19;
+}
+.team .card-body h2{
+    color: #8B0000;
+    font-size: 20px;
+}
+.contact form{
+    box-shadow: 2px 6px 100px #8B0000;
+    margin-bottom: 50px;
+}
+footer h3{
+    color:#8B0000 ;
+}
+footer a{
+    text-decoration: none;  
+}
+footer a:hover{
+    background: #FFD700;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width-970px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+
+
+

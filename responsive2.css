@@ -1,0 +1,81 @@
+@media(max-width:1030px){
+    /*homme css*/
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .homme-banner-text{
+        transform: translate(-80%,50%);
+    }
+}
+@media (max-width:991px) {
+    .home .home-banner .homme-banner-text{
+        transform: translate(-66%,50%);
+    }
+}
+@media (max-width:767px) {
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+    .home .home-banner .homme-banner-text{
+        text-align:center;
+        width: 100%;
+        transform: translate(-50%-50%);
+    }
+    .home .home-banner .homme-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .homme-banner-text h2{
+        font-size: 1.2rem;
+    }
+    .home .home-banner .homme-banner-text .btn-danger{
+        padding: 0.5rem 1.5rem;
+    }
+    .home .slider-icons{
+        font: size 2rem;
+    }
+    <section id="home" class="home pt-5 overflow-hidden">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="home-banner home-banner-1">
+                <div class="home-banner-text">
+                    <h1>LUXE CARS</h1>
+                    <h2>Best car rental prices</h2>
+                <a href="#" class="btn btn-danger text-uppercase mt-4">RESERVE YOUR VEHICLE</a>    
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="home-banner home-banner-2">
+                <div class="home-banner-text">
+                    <h1>BEST SERVICE</h1>
+                    <h2>Best car rental prices</h2>
+                <a href="#" class="btn btn-danger text-uppercase mt-4">RESERVE YOUR VEHICLE</a>    
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+              <span class="ti-angle-left slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <span class="ti-angle-right slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+}
+
